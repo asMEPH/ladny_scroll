@@ -10,7 +10,13 @@ export class GalleryComponent implements OnInit {
   @Input() buttons: Array<string> ;
   @Input() galleryList: Array<any> ;
 
+  selected = -1;
   constructor() { }
+
+  changeGallery(i){
+    this.selected = i;
+
+  }
 
   ngOnInit() {
   }

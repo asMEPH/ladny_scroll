@@ -1,6 +1,8 @@
 <div class="gallery">
   <div class="menu">
-    <span class="btn" *ngFor="let zmbtn of buttons ">{{zmbtn}}</span>
+    <span class="btn mr-2" [ngClass]="{'btn-success': id == selected, 'btn-info': id != selected }"
+    *ngFor="let zmbtn of buttons; let id = index"
+          (click)="changeGallery(id)" >{{zmbtn}}</span>
 
   </div>
 </div>
