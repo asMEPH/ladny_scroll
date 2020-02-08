@@ -8,6 +8,10 @@ import { Component, OnInit } from '@angular/core';
 export class HomeComponent implements OnInit {
 
   constructor() { }
+  gall_btn = [
+    "grafika 2D",
+    "grafika 3D"
+  ]
 
   ngOnInit() {
   }

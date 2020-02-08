@@ -15,6 +15,7 @@ import {OnlineBankingComponent} from './online-banking/online-banking.component'
 import {HttpClient, HttpClientModule} from "@angular/common/http";
 import {BiuletynComponent} from './biuletyn/biuletyn.component';
 import {PostViewComponent} from "./biuletyn/post-view/post-view.component";
+import { GalleryComponent } from './gallery/gallery.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import {PostViewComponent} from "./biuletyn/post-view/post-view.component";
     OnlineBankingComponent,
     BiuletynComponent,
     PostViewComponent,
+    GalleryComponent,
   ],
   imports: [
     BrowserModule,
